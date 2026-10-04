@@ -12,6 +12,7 @@ Each project lives in its own repository with its own README and licence.
 | [openamigamail](https://github.com/DalsinAI/openamigamail) | OpenMail: IMAP/SMTP email client with TLS and OAuth sign-in | In progress |
 | [openamigaprint](https://github.com/DalsinAI/openamigaprint) | OpenPrint: printing stack from `printer.device` to PDF and IPP printers | In progress |
 | [openamigabrowser](https://github.com/DalsinAI/openamigabrowser) | OpenBrowser: WebKit-based web browser (68020+ with FPU) | In progress |
+| [openamigawrite](https://github.com/DalsinAI/openamigawrite) | OpenWrite: word processor that opens and saves DOCX and ODT and opens the Amiga word processors' documents; `C:OWConvert` converts on any Amiga | In progress |
 | [openamigartg](https://github.com/DalsinAI/openamigartg) | OpenRTG: RTG graphics system with `openrtg.library`, OpenGPU and Warp3D | In progress |
 | [openamigamedia](https://github.com/DalsinAI/openamigamedia) | OpenMedia: `openmedia.library` for hardware video decode and encode | Designed |
 | [openamigavlc](https://github.com/DalsinAI/openamigavlc) | Unofficial VLC media player port | Planned |
