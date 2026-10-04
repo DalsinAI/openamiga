@@ -21,21 +21,22 @@ Each project lives in its own repository with its own README and licence.
 ## Library ports
 
 Open-source libraries ported to AmigaOS 3.2 (m68k), first for OpenBrowser.
-Each keeps its upstream licence; see its repository for the upstream version
-and the Amiga changes. These repositories are being filled as the ports are
-finished.
+Each repository holds the Amiga build (script, patches, configuration), a
+smoke test with its output, and the library's upstream licence; the Amiga
+changes are MIT. "Working" means it builds and its smoke test passed on
+AmigaOS 3.2.3 under AmigaChrome; none has been run on real hardware yet.
 
-| Repository | Library |
-| --- | --- |
-| [openamigacurl](https://github.com/DalsinAI/openamigacurl) | libcurl, with TLS through AmiSSL |
-| [openamigacairo](https://github.com/DalsinAI/openamigacairo) | cairo and pixman |
-| [openamigafreetype](https://github.com/DalsinAI/openamigafreetype) | FreeType |
-| [openamigaharfbuzz](https://github.com/DalsinAI/openamigaharfbuzz) | HarfBuzz |
-| [openamigafontconfig](https://github.com/DalsinAI/openamigafontconfig) | Fontconfig |
-| [openamigaxml](https://github.com/DalsinAI/openamigaxml) | XML library |
-| [openamigaimage](https://github.com/DalsinAI/openamigaimage) | Image format libraries |
-| [openamigasqlite](https://github.com/DalsinAI/openamigasqlite) | SQLite |
-| [openamigapsl](https://github.com/DalsinAI/openamigapsl) | libpsl (Public Suffix List) |
+| Repository | Library | Version | State, 4 October 2026 |
+| --- | --- | --- | --- |
+| [openamigacurl](https://github.com/DalsinAI/openamigacurl) | libcurl, with TLS through AmiSSL | 8.22.0 | Working |
+| [openamigacairo](https://github.com/DalsinAI/openamigacairo) | cairo and pixman | 1.18.6, 0.46.4 | Working |
+| [openamigafreetype](https://github.com/DalsinAI/openamigafreetype) | FreeType | 2.14.3 | Working |
+| [openamigaharfbuzz](https://github.com/DalsinAI/openamigaharfbuzz) | HarfBuzz | 14.5.1 | Working |
+| [openamigafontconfig](https://github.com/DalsinAI/openamigafontconfig) | Fontconfig | 2.18.3 | Working |
+| [openamigaxml](https://github.com/DalsinAI/openamigaxml) | libxml2 and Expat | 2.15.4, 2.8.2 | Working |
+| [openamigaimage](https://github.com/DalsinAI/openamigaimage) | zlib, libpng and libjpeg | 1.3.1, 1.6.58, 9f | Working |
+| [openamigasqlite](https://github.com/DalsinAI/openamigasqlite) | SQLite | 3.53.4 | Working |
+| [openamigapsl](https://github.com/DalsinAI/openamigapsl) | libpsl (Public Suffix List) | 0.23.3 | Working |
 
 ## AmigaChrome tools
 
