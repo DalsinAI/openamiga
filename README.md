@@ -34,9 +34,23 @@ AmigaOS 3.2.3 under AmigaChrome; none has been run on real hardware yet.
 | [openamigaharfbuzz](https://github.com/DalsinAI/openamigaharfbuzz) | HarfBuzz | 14.5.1 | Working |
 | [openamigafontconfig](https://github.com/DalsinAI/openamigafontconfig) | Fontconfig | 2.18.3 | Working |
 | [openamigaxml](https://github.com/DalsinAI/openamigaxml) | libxml2 and Expat | 2.15.4, 2.8.2 | Working |
-| [openamigaimage](https://github.com/DalsinAI/openamigaimage) | zlib, libpng and libjpeg | 1.3.1, 1.6.58, 9f | Working |
+| [openamigaimage](https://github.com/DalsinAI/openamigaimage) | zlib, libpng and libjpeg; the project's datatypes (below) | 1.3.1, 1.6.58, 9f | Working |
 | [openamigasqlite](https://github.com/DalsinAI/openamigasqlite) | SQLite | 3.53.4 | Working |
 | [openamigapsl](https://github.com/DalsinAI/openamigapsl) | libpsl (Public Suffix List) | 0.23.3 | Working |
+
+## Datatypes
+
+Datatypes the project builds, so any datatypes program (MultiView,
+OpenBrowser, a picture viewer) opens more formats. They all live in
+[openamigaimage](https://github.com/DalsinAI/openamigaimage)'s `Datatypes`
+drawer, run on a 68020 or better without an FPU, and decode on AmigaOS 3.2.3
+under AmigaChrome exactly as their libraries do on a PC; none has been run on
+real hardware yet.
+
+| Datatype | Opens | Built on | State, 4 October 2026 |
+| --- | --- | --- | --- |
+| `webp.datatype` | WebP pictures: lossy, lossless, alpha (first frame of an animated one) | libwebp 1.6.0 | Working |
+| `webm.datatype` | WebM video, VP8 and VP9, as an animation in 256 colours; no sound yet | libvpx 1.17.0 | Frames decode; playback in MultiView not yet checked |
 
 ## AmigaChrome tools
 
