@@ -36,6 +36,7 @@ AmigaOS 3.2.3 under AmigaChrome; none has been run on real hardware yet.
 | [openamigafontconfig](https://github.com/DalsinAI/openamigafontconfig) | Fontconfig | 2.18.3 | Working |
 | [openamigaxml](https://github.com/DalsinAI/openamigaxml) | libxml2 and Expat | 2.15.4, 2.8.2 | Working |
 | [openamigaimage](https://github.com/DalsinAI/openamigaimage) | zlib, libpng and libjpeg; the project's datatypes (below) | 1.3.1, 1.6.58, 9f | Working |
+| [openamigamedialibrary](https://github.com/DalsinAI/openamigamedialibrary) | libwebp and libvpx (WebP pictures, VP8 and VP9 video), decoders only and without FPU code | 1.6.0, 1.17.0 | Working |
 | [openamigasqlite](https://github.com/DalsinAI/openamigasqlite) | SQLite | 3.53.4 | Working |
 | [openamigapsl](https://github.com/DalsinAI/openamigapsl) | libpsl (Public Suffix List) | 0.23.3 | Working |
 
@@ -50,8 +51,8 @@ real hardware yet.
 
 | Datatype | Opens | Built on | State, 4 October 2026 |
 | --- | --- | --- | --- |
-| `webp.datatype` | WebP pictures: lossy, lossless, alpha (first frame of an animated one) | libwebp 1.6.0 | Working |
-| `webm.datatype` | WebM video, VP8 and VP9, as an animation in 256 colours; no sound yet | libvpx 1.17.0 | Frames decode; playback in MultiView not yet checked |
+| `webp.datatype` | WebP pictures: lossy, lossless, alpha (first frame of an animated one) | libwebp 1.6.0 (openamigamedialibrary) | Working |
+| `webm.datatype` | WebM video, VP8 and VP9, as an animation in 256 colours; no sound yet | libvpx 1.17.0 (openamigamedialibrary) | Frames decode; playback in MultiView not yet checked |
 
 ## AmigaChrome tools
 
