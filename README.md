@@ -66,3 +66,7 @@ real hardware yet.
 This index is MIT licensed (`LICENSE`, Copyright (c) 2026 Dalsin Limited).
 Dalsin Limited's own projects are MIT; library ports and other third-party
 code keep their upstream licences, as each repository states.
+
+## Contributors
+
+Open Amiga is created and maintained by [SacredTrees](https://github.com/SacredTrees) with the AmigaChrome agent team, copyright Dalsin Limited. Everyone whose work it includes is credited in [`CONTRIBUTORS.md`](CONTRIBUTORS.md).
