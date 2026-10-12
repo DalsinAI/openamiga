@@ -46,7 +46,7 @@ Datatypes the project builds, so any datatypes program (MultiView,
 OpenBrowser, a picture viewer) opens more formats. They all live in
 [openamigaimage](https://github.com/DalsinAI/openamigaimage)'s `Datatypes`
 drawer, run on a 68020 or better without an FPU, and decode on AmigaOS 3.2.3
-under AmigaChrome exactly as their libraries do on a PC; none has been run on
+under AmigaChrome exactly as their libraries do on x86 cores; none has been run on
 real hardware yet.
 
 | Datatype | Opens | Built on | State, 4 October 2026 |
