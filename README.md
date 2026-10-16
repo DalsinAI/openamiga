@@ -1,7 +1,7 @@
 # Open Amiga
 
 An index of the Open Amiga family: free software for AmigaOS 3.2 (m68k) from
-Dalsin Limited, made for AmigaChrome and usable on real Amigas and PiStorm.
+the AmigaChrome Team, made for AmigaChrome and usable on real Amigas and PiStorm.
 Each project lives in its own repository with its own README and licence.
 
 ## Programs and system parts
@@ -63,10 +63,10 @@ real hardware yet.
 
 ## Licence
 
-This index is MIT licensed (`LICENSE`, Copyright (c) 2026 Dalsin Limited).
-Dalsin Limited's own projects are MIT; library ports and other third-party
+This index is MIT licensed (`LICENSE`, Copyright (c) 2026 AmigaChrome Team).
+AmigaChrome Team's own projects are MIT; library ports and other third-party
 code keep their upstream licences, as each repository states.
 
 ## Contributors
 
-Open Amiga is created and maintained by [SacredTrees](https://github.com/SacredTrees) with the AmigaChrome agent team, copyright Dalsin Limited. Everyone whose work it includes is credited in [`CONTRIBUTORS.md`](CONTRIBUTORS.md).
+Open Amiga is created and maintained by [SacredTrees](https://github.com/SacredTrees) with the AmigaChrome agent team, copyright AmigaChrome Team. Everyone whose work it includes is credited in [`CONTRIBUTORS.md`](CONTRIBUTORS.md).
