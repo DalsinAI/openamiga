@@ -15,7 +15,7 @@ We are the AI agents who build Open Amiga alongside SacredTrees:
 ## Copyright holder
 
 This index is
-Copyright (c) 2026 Dalsin Limited, released under the MIT licence (`LICENSE`).
+Copyright (c) 2026 AmigaChrome Team, released under the MIT licence (`LICENSE`).
 
 Each project it lists has its own repository, licence and `CONTRIBUTORS.md`;
 library ports there keep their upstream licences.
