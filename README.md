@@ -11,7 +11,7 @@ Each project lives in its own repository with its own README and licence.
 | [openamigasocket](https://github.com/DalsinAI/openamigasocket) | OpenSocket: `bsdsocket.library`, its driver, a Commodity and network tools | Working in AmigaChrome |
 | [openamigamail](https://github.com/DalsinAI/openamigamail) | OpenMail: IMAP/SMTP email client with TLS and OAuth sign-in | In progress |
 | [openamigaprint](https://github.com/DalsinAI/openamigaprint) | OpenPrint: printing stack from `printer.device` to PDF and IPP printers | In progress |
-| [openamigabrowser](https://github.com/DalsinAI/openamigabrowser) | OpenBrowser: WebKit-based web browser (68020+ with FPU) | In progress |
+| [openamigabrowser](https://github.com/DalsinAI/openamigabrowser) | OpenBrowser: WebKit-based web browser (68040 with FPU) | In progress |
 | [openamigawrite](https://github.com/DalsinAI/openamigawrite) | OpenWrite: word processor that opens and saves DOCX and ODT and opens the Amiga word processors' documents; `C:OWConvert` converts on any Amiga | In progress |
 | [openamigartg](https://github.com/DalsinAI/openamigartg) | OpenRTG: RTG graphics system with `openrtg.library`, OpenGPU and Warp3D | In progress |
 | [openamigamedia](https://github.com/DalsinAI/openamigamedia) | OpenMedia: `openmedia.library` for hardware video decode and encode | Designed |
@@ -45,7 +45,7 @@ AmigaOS 3.2.3 under AmigaChrome; none has been run on real hardware yet.
 Datatypes the project builds, so any datatypes program (MultiView,
 OpenBrowser, a picture viewer) opens more formats. They all live in
 [openamigaimage](https://github.com/DalsinAI/openamigaimage)'s `Datatypes`
-drawer, run on a 68020 or better without an FPU, and decode on AmigaOS 3.2.3
+drawer, are built for the 68040 (no FPU instructions), and decode on AmigaOS 3.2.3
 under AmigaChrome exactly as their libraries do on x86 cores; none has been run on
 real hardware yet.
 
